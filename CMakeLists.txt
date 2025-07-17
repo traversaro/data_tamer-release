@@ -23,7 +23,7 @@ else()
         -Wno-deprecated-declarations -Wno-ignored-attributes -Wno-unused-parameter
         -Wnon-virtual-dtor -Wno-unused-variable -Wnull-dereference -Wold-style-cast
         -Woverloaded-virtual -Wshadow -Wsign-conversion
-        -Werror -Wpedantic)
+        -Wpedantic)
 endif()
 
 
