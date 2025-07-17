@@ -17,7 +17,7 @@ endif()
 option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
 
 if (MSVC)
-    add_compile_options(/W4 /WX)
+    add_compile_options(/W4)
 else()
     add_compile_options(-Wall -Wcast-align -Wconversion -Wdouble-promotion -Wextra -Wimplicit-fallthrough
         -Wno-deprecated-declarations -Wno-ignored-attributes -Wno-unused-parameter
